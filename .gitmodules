@@ -1,0 +1,3 @@
+[submodule "rropencl"]
+	path = rropencl
+	url = git://github.com/KendallHopkins/rropencl.git

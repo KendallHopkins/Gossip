@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE02CB691311AC7D002E5AA4 /* RROpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE02CB681311AC7D002E5AA4 /* RROpenCL.framework */; };
+		BE0EAB801311B81700236BEA /* main.cl in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE0EAB7B1311B73E00236BEA /* main.cl */; };
+		BE55CED8130F9D1500058186 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE55CED7130F9D1500058186 /* Foundation.framework */; };
+		BE55CEDB130F9D1500058186 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE55CEDA130F9D1500058186 /* main.m */; };
+		BE7DFEA91311A31000A61E0D /* dictionary.dawg in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE7DFEA81311A2EF00A61E0D /* dictionary.dawg */; };
+		BE9B64DC1311E1A200F7227E /* apiToCL.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE9B64DB1311E0FE00F7227E /* apiToCL.h */; };
+		BE9B64DD1311E1A400F7227E /* main.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE9B64DA1311E05300F7227E /* main.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE55CEEE130F9D8700058186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE55CEE4130F9D8700058186 /* RROpenCL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEBDE33F130ED81700B603CD;
+			remoteInfo = RROpenCL;
+		};
+		BE55CEF0130F9D8700058186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE55CEE4130F9D8700058186 /* RROpenCL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEBDE354130ED81700B603CD;
+			remoteInfo = RROpenCLTests;
+		};
+		BE55CEF2130F9D8700058186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE55CEE4130F9D8700058186 /* RROpenCL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BE737C18130EF2D500C2AD29;
+			remoteInfo = RROpenCLCompiler;
+		};
+		BE55CEF4130F9DC300058186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE55CEE4130F9D8700058186 /* RROpenCL.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEBDE33E130ED81700B603CD;
+			remoteInfo = RROpenCL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE55CED1130F9D1500058186 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstSubfolderSpec = 16;
+			files = (
+				BE7DFEA91311A31000A61E0D /* dictionary.dawg in CopyFiles */,
+				BE0EAB801311B81700236BEA /* main.cl in CopyFiles */,
+				BE9B64DC1311E1A200F7227E /* apiToCL.h in CopyFiles */,
+				BE9B64DD1311E1A400F7227E /* main.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE02CB681311AC7D002E5AA4 /* RROpenCL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RROpenCL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0EAB7B1311B73E00236BEA /* main.cl */ = {isa = PBXFileReference; explicitFileType = sourcecode.opencl; fileEncoding = 4; path = main.cl; sourceTree = "<group>"; };
+		BE55CED3130F9D1500058186 /* gossip */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = gossip; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE55CED7130F9D1500058186 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BE55CEDA130F9D1500058186 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE55CEDD130F9D1500058186 /* gossip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gossip-Prefix.pch"; sourceTree = "<group>"; };
+		BE55CEE4130F9D8700058186 /* RROpenCL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RROpenCL.xcodeproj; path = rropencl/RROpenCL.xcodeproj; sourceTree = SOURCE_ROOT; };
+		BE7DFEA81311A2EF00A61E0D /* dictionary.dawg */ = {isa = PBXFileReference; lastKnownFileType = file; path = dictionary.dawg; sourceTree = "<group>"; };
+		BE9B64DA1311E05300F7227E /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		BE9B64DB1311E0FE00F7227E /* apiToCL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = apiToCL.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE55CED0130F9D1500058186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE55CED8130F9D1500058186 /* Foundation.framework in Frameworks */,
+				BE02CB691311AC7D002E5AA4 /* RROpenCL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE55CEC8130F9D1500058186 = {
+			isa = PBXGroup;
+			children = (
+				BE55CED9130F9D1500058186 /* gossip */,
+				BE55CED6130F9D1500058186 /* Frameworks */,
+				BE55CED4130F9D1500058186 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE55CED4130F9D1500058186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE55CED3130F9D1500058186 /* gossip */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE55CED6130F9D1500058186 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE02CB681311AC7D002E5AA4 /* RROpenCL.framework */,
+				BE55CED7130F9D1500058186 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE55CED9130F9D1500058186 /* gossip */ = {
+			isa = PBXGroup;
+			children = (
+				BE9B64DA1311E05300F7227E /* main.h */,
+				BE9B64DB1311E0FE00F7227E /* apiToCL.h */,
+				BE55CEDA130F9D1500058186 /* main.m */,
+				BE0EAB7B1311B73E00236BEA /* main.cl */,
+				BE7DFEA81311A2EF00A61E0D /* dictionary.dawg */,
+				BEC366C613117F2300327CD8 /* Classes */,
+				BE55CEDC130F9D1500058186 /* Supporting Files */,
+				BE55CEE4130F9D8700058186 /* RROpenCL.xcodeproj */,
+			);
+			path = gossip;
+			sourceTree = "<group>";
+		};
+		BE55CEDC130F9D1500058186 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE55CEDD130F9D1500058186 /* gossip-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE55CEE5130F9D8700058186 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE55CEEF130F9D8700058186 /* RROpenCL.framework */,
+				BE55CEF1130F9D8700058186 /* RROpenCLTests.octest */,
+				BE55CEF3130F9D8700058186 /* RROpenCLCompiler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC366C613117F2300327CD8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE55CED2130F9D1500058186 /* gossip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE55CEE1130F9D1500058186 /* Build configuration list for PBXNativeTarget "gossip" */;
+			buildPhases = (
+				BE55CECF130F9D1500058186 /* Sources */,
+				BE55CED0130F9D1500058186 /* Frameworks */,
+				BE55CED1130F9D1500058186 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE55CEF5130F9DC300058186 /* PBXTargetDependency */,
+			);
+			name = gossip;
+			productName = gossip;
+			productReference = BE55CED3130F9D1500058186 /* gossip */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE55CECA130F9D1500058186 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = SoftwareElves;
+			};
+			buildConfigurationList = BE55CECD130F9D1500058186 /* Build configuration list for PBXProject "gossip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BE55CEC8130F9D1500058186;
+			productRefGroup = BE55CED4130F9D1500058186 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = BE55CEE5130F9D8700058186 /* Products */;
+					ProjectRef = BE55CEE4130F9D8700058186 /* RROpenCL.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				BE55CED2130F9D1500058186 /* gossip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		BE55CEEF130F9D8700058186 /* RROpenCL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RROpenCL.framework;
+			remoteRef = BE55CEEE130F9D8700058186 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE55CEF1130F9D8700058186 /* RROpenCLTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RROpenCLTests.octest;
+			remoteRef = BE55CEF0130F9D8700058186 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		BE55CEF3130F9D8700058186 /* RROpenCLCompiler */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = RROpenCLCompiler;
+			remoteRef = BE55CEF2130F9D8700058186 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE55CECF130F9D1500058186 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE55CEDB130F9D1500058186 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE55CEF5130F9DC300058186 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RROpenCL;
+			targetProxy = BE55CEF4130F9DC300058186 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE55CEDF130F9D1500058186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE55CEE0130F9D1500058186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE55CEE2130F9D1500058186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gossip/gossip-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE55CEE3130F9D1500058186 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "gossip/gossip-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE55CECD130F9D1500058186 /* Build configuration list for PBXProject "gossip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE55CEDF130F9D1500058186 /* Debug */,
+				BE55CEE0130F9D1500058186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE55CEE1130F9D1500058186 /* Build configuration list for PBXNativeTarget "gossip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE55CEE2130F9D1500058186 /* Debug */,
+				BE55CEE3130F9D1500058186 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE55CECA130F9D1500058186 /* Project object */;
+}
